@@ -59,37 +59,17 @@ public class Village {
 		obelix.sePresenter();
 		doublepolemix.sePresenter();
 	}
-	
+
 	public void afficherVillage() {
-		System.out.println("Dans le village " + "\"" + getNom() + "\"" + " du chef " + getChef() + " vivent les legendaires gaulois :");
-		
+		System.out.println("Dans le village " + "\"" + getNom() + "\"" + " du chef " + getChef()
+				+ " vivent les legendaires gaulois :");
+
 		for (int i = 0; i < nbVillageois; i++) {
-			if (villageois[i]!=null) {
+			if (villageois[i] != null) {
 				System.out.println("- " + villageois[i]);
 			}
-			
+
 		}
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
